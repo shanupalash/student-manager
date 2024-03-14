@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Manager</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<h2>Student Manager</h2>
+
+<p id="totalStudent">Total Student: 0</p>
+
+
+<form id="studentmanager">
+    <label for="name">name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="mobile">mobile number:</label>
+    <input type="number" id="mobile" name="name" min="1" required><br><br>
+
+    <label for="address">address:</label>
+    <input type="text" id="address" name="address" required><br><br>
+
+    
+
+    <button type="submit">ADD</button>
+</form>
+
+
+<table id="bookedStatus">
+    <tr>
+        <th>name</th>
+        <th>mobilenumber</th>
+        <th>address</th>
+
+    </tr>
+</table>
+
+
+</body>
+</html>
